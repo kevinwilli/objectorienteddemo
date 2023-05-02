@@ -1,0 +1,27 @@
+Now we are going to compare the animals
+How many animals do you want to compare?
+10
+Animal{name='Joey', species='Chinchilla', age=23'LifeStatus=Alive'}      
+Animal{name='Chester', species='Crayfish', age=31'LifeStatus=Dead'}      
+Animal{name='King', species='Parakeet', age=56'LifeStatus=Dead'}
+Animal{name='Apollo', species='Beetle', age=37'LifeStatus=Dead'}
+Animal{name='Cody', species='Cicada', age=26'LifeStatus=Alive'}
+Animal{name='Tank', species='Sugar Glider', age=71'LifeStatus=Dead'}     
+Animal{name='Chester', species='Duck', age=79'LifeStatus=Dead'}
+Animal{name='Rocky', species='Lizard', age=25'LifeStatus=Alive'}
+Animal{name='Bruce', species='Lizard', age=22'LifeStatus=Dead'}
+Animal{name='Lou', species='Lobster', age=41'LifeStatus=Dead'}
+
+Now we are going to sort the animals
+
+This is the sorted animals
+Animal{name='Apollo', species='Beetle', age=37'LifeStatus=Alive'}        
+Animal{name='Bruce', species='Lizard', age=22'LifeStatus=Alive'}
+Animal{name='Chester', species='Crayfish', age=31'LifeStatus=Dead'}      
+Animal{name='Chester', species='Duck', age=79'LifeStatus=Dead'}
+Animal{name='Cody', species='Cicada', age=26'LifeStatus=Dead'}
+Animal{name='Joey', species='Chinchilla', age=23'LifeStatus=Alive'}      
+Animal{name='King', species='Parakeet', age=56'LifeStatus=Alive'}        
+Animal{name='Lou', species='Lobster', age=41'LifeStatus=Alive'}
+Animal{name='Rocky', species='Lizard', age=25'LifeStatus=Alive'}
+Animal{name='Tank', species='Sugar Glider', age=71'LifeStatus=Dead'}  

@@ -63,6 +63,19 @@ public class OjectOrientedDriver
             //print out the randomAnimal toString
             System.out.println(randomAnimal.toString());
         }
+        //if the user chose anything else
+        else {
+            //print out that the user entered an invalid choice
+            System.out.println("Invalid choice");
+            //print out that the program is exiting and exit the program after 5 seconds;
+            System.out.println("Exiting...");
+            try {
+                Thread.sleep(31000);
+            } catch (InterruptedException e) {
+               // e.printStackTrace();
+            }
+            System.exit(0);
+        }
         
         //let the user know , that now we are going to compare the animals
         //EMPTY LINE
