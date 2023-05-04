@@ -6,7 +6,13 @@ public class Dog extends Animal {
 
     private String breed;
 
-    // constructor
+    //new constructor with all the dog attributes
+    public Dog(String name, String species, int age, String breed) {
+        super(name, species, age);
+        this.breed = breed;
+    }
+
+    // constructor 
     public Dog() {
         super();
         // create an array of strings with breeds

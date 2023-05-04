@@ -5,6 +5,13 @@ public class Person extends Animal  {
     // attributes
     private String job;
 
+    //constructor with all the person attributes
+    public Person(String name, String species, int age, String job) {
+        super(name, species, age);
+        this.job = job;
+    }
+
+
     // constructor
     public Person() {
         super();

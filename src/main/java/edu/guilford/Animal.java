@@ -10,6 +10,14 @@ public class Animal implements Comparable<Animal> {
     private int age;
     Random rand = new Random();
 
+    //constructor with all the animal attributes
+    public Animal(String name, String species, int age) {
+        this.name = name;
+        this.species = species;
+        this.age = age;
+    }
+
+
     // constructor
     public Animal() {
         // create an array of strings with names
@@ -92,7 +100,7 @@ public class Animal implements Comparable<Animal> {
                 ", age=" + age + "\'" + "LifeStatus=" + LifeStatus() + '\'' +
                 '}';
     }
-    //add a comparto method to compare first the name, then the species, then the age
+    //add a compare to method to compare first the name, then the species, then the age
     @Override
     public int compareTo(Animal animal) {
         int compareName = this.name.compareTo(animal.name);

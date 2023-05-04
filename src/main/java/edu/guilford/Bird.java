@@ -4,6 +4,12 @@ public class Bird extends Animal {
     // attributes
     private Double flightspeed;
 
+    //new constructor with all the bird attributes
+    public Bird(String name, String species, int age, Double flightspeed) {
+        super(name, species, age);
+        this.flightspeed = flightspeed;
+    }
+
     // constructor
     public Bird() {
         super();
